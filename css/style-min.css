@@ -1,0 +1,247 @@
+@font-face{    font-family:'League Gothic';     src:url('../fonts/leaguegothic-regular-webfont.eot');     src:url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),    url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),    url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),    url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');  font-weight:normal;  font-style:normal}
+
+body{ min-width:960px;  max-width:1020px;  font-family:'Arial',sans-serif;  color:#5c5c5c}
+
+.container{ width:950px;  margin:0 auto;  padding:0 5px}
+
+.clearfix::after{ content:"";  display:table;  clear:both}
+
+img{ width:100%;  height:auto}
+
+.page-header{    padding-top:9px;     border-bottom:2px solid #22aaec}
+
+.page-header__top{    position:relative;     text-align:center}
+
+.logotype{    display:block;     margin:0 auto 8px;     width:185px;     font-family:'League Gothic',sans-serif;     line-height:42px;     font-size:32px;     color:#076e9f;     text-transform:uppercase}
+
+.logotype b{    font-weight:500}
+
+.logotype__light{    color:#22aaec}
+
+.page-header__social{    float:right;     max-width:300px;     margin-top:7px;     margin-right:-20px;     font-size:0}
+
+.social-btn{    display:inline-block;     vertical-align:top;     width:16px;     height:16px;     margin-right:7px;     background:url(../images/decorative/spritesheet.png) no-repeat;  text-decoration:none}
+
+.social-btn-evernote{ background-position:-5px -73px}
+
+.social-btn-twitter{ background-position:-5px -760px}
+
+.social-btn-pinterest{ background-position:-5px -205px}
+
+.social-btn-linkedin{ background-position:-5px -126px}
+
+.social-btn-facebook{ background-position:-5px -100px}
+
+.social-btn-delicious{ background-position:-5px -47px}
+
+.main-nav{ margin-bottom:9px;  max-width:950px;  text-align:center}
+
+.main-nav__list{ display:block;  margin:0;  padding:0;  font-size:0;  list-style:none}
+
+.main-nav__item{ display:inline-block;  vertical-align:top;  margin-right:17px}
+
+.main-nav__list .main-nav__item:last-child{ margin-right:0}
+
+.main-nav__item a{ display:block;  height:18px;  padding:0 18px;  border:1px solid transparent;  line-height:18px;  font-size:10px;  color:#707070;  text-transform:uppercase;  font-family:'Arial',sans-serif;  font-weight:normal;  text-decoration:none;  cursor:pointer;  -webkit-transition:all 0.6s;  -o-transition:all 0.6s;  transition:all 0.6s}
+
+.main-nav__item a:hover{ border:1px solid #045279;  background-color:#22aaec; ;  color:#fff;  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25);  box-shadow:inset 0 1px 0 rgba(255,255,255,.25)}
+
+.main-nav__item span{ display:block;  padding:0 18px;  height:18px;  border:1px solid #045279;  background-color:#0770a0;  background:-webkit-gradient(linear,left top,left bottom,from(#0879a8),to(#066396));  background:-webkit-linear-gradient(#0879a8,#066396);  background:-o-linear-gradient(#0879a8,#066396);  background:linear-gradient(#0879a8,#066396);  line-height:18px;  font-size:10px;  color:#fff;  text-transform:uppercase;  font-family:'Arial',sans-serif;  font-weight:normal;  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25);  box-shadow:inset 0 1px 0 rgba(255,255,255,.25)}
+
+main{    margin-bottom:16px}
+
+.banner{    position:relative;     padding-top:1px;     background:#eaeaea url("../images/content/main-img.jpg") no-repeat}
+
+.banner::after{ content:"";  position:absolute;  bottom:0;  left:0;  width:100%;  height:2px;  background:-webkit-gradient(linear,left top,left bottom,from(#22aaec),to(#3fb5ef));  background:-webkit-linear-gradient(#22aaec,#3fb5ef);  background:-o-linear-gradient(#22aaec,#3fb5ef);  background:linear-gradient(#22aaec,#3fb5ef); }
+
+.banner__header{ margin-top:91px;  margin-bottom:19px;  text-align:center}
+
+.banner__header h1{ display:inline-block;  vertical-align:top;  padding:0 25px;  margin:0;  font-family:'League Gothic',sans-serif;  line-height:79px;  font-size:60px;  color:#076e9f;  text-transform:uppercase;  text-align:center;  background-color:rgba(255,255,255,.8)}
+
+.banner__header *:first-child{ margin-top:0}
+
+.banner__light-text{ color:#22aaec}
+
+.banner__description{ text-align:center}
+
+.banner__description p{ display:inline-block;  vertical-align:top;  padding:0 13px;  margin-top:0;  margin-bottom:30px;  font-family:'League Gothic',sans-serif;  line-height:47px;  font-size:30px;  color:#076e9f;  text-transform:uppercase;  text-align:center;  background-color:rgba(255,255,255,.8)}
+
+.main-block{ border-bottom:1px dotted #d5d5d5;  margin-bottom:11px}
+
+.comments{ padding:26px 25px 26px 41px;  margin-top:47px;  background-color:rgba(0,0,0,.5)}
+
+.comments__list{ margin:0;  padding:0;  font-size:0;  list-style:none}
+
+.comments__item{ display:inline-block;  vertical-align:top;  width:189px;  height:69px;  margin-right:51px;  overflow:hidden;  border-top-left-radius:35px;  border-bottom-left-radius:35px;  background-color:rgba(255,255,255,.9)}
+
+.comments__item:nth-child(4n+4){ margin-right:0}
+
+.comment__image{ float:left;  margin-right:17px;  width:69px;  height:69px;  border-radius:50%;  overflow:hidden;  background-color:#595959;  -webkit-box-shadow:0 0 2px rgba(0,0,0,.56);  box-shadow:0 0 2px rgba(0,0,0,.56)}
+
+.comment__image img{ -webkit-transform:translateX(-1px);  -ms-transform:translateX(-1px);  transform:translateX(-1px)}
+
+.comments__item--1 img{ width:89px;  -webkit-transform:translateX(-10px) translateY(-12px);  -ms-transform:translateX(-10px) translateY(-12px);  transform:translateX(-10px) translateY(-12px);  height:auto}
+
+.comments__item--2 img{ width:130px;  -webkit-transform:translateY(-5px);  -ms-transform:translateY(-5px);  transform:translateY(-5px);  height:auto}
+
+.comments__item--3 img{ width:95px;  -webkit-transform:translateX(-10px);  -ms-transform:translateX(-10px);  transform:translateX(-10px);  height:auto}
+
+.comments__item--4 img{ width:80px;  -webkit-transform:translateX(-10px) translateY(-12px);  -ms-transform:translateX(-10px) translateY(-12px);  transform:translateX(-10px) translateY(-12px);  height:auto}
+
+.comments__item blockquote{ margin:0;  padding:7px 2px 0 0;  font-family:'Arial',sans-serif;  line-height:14px;  font-size:9px;  color:#515151;  font-style:italic}
+
+.comments__item cite{ display:block;  margin:0;  padding:0;  font-family:'Arial',sans-serif;  line-height:14px;  font-size:9px;  color:#828282;  font-style:normal}
+
+.info{ float:left;  width:202px;  padding-top:1px;  padding-bottom:13px;  border-right:1px dotted #d7d7d7}
+
+.info h3{ margin-top:27px;  margin-bottom:9px;  font-family:'League Gothic',sans-serif;  line-height:28px;  font-size:22px;  color:#076e9f;  font-style:normal;  text-transform:uppercase}
+
+.info p{ margin-bottom:14px;  margin-top:0;  font-family:'Arial',sans-serif;  line-height:18px;  font-size:10px;  color:#5c5c5c;  font-style:normal}
+
+.about-author{ padding-top:27px;  padding-right:15px;  padding-left:7px;  border-bottom:1px dotted #d7d7d7}
+
+.about-author *:first-child{ margin-top:0}
+
+.about-author__name{ color:#076e9f}
+
+.related-posts{    padding-top:13px;     padding-left:7px;     padding-bottom:13px;     border-bottom:1px dotted #d7d7d7}
+
+.related-posts *:first-child{    margin-top:0}
+
+.related-posts__list{    margin:0;     padding:0;     list-style:none}
+
+.related-posts__item{    margin:0 0 8px;     padding:0}
+
+.related-posts__img{    float:left;     width:50px;     height: 40px;     margin-right:18px;     background-color:#ddd}
+
+.related-posts__info{    float:left}
+
+.related-posts__title{    margin-top:0;     margin-bottom:0;     font-family:'Arial',sans-serif;     line-height:18px;     font-size:10px;     color:#5c5c5c;     font-weight:bold}
+
+.related-posts__comments{    position:relative;     margin-top:0;     margin-bottom:18px;     padding-left:22px;     font-family:'Arial',sans-serif;     line-height:18px;     font-size:10px;     color:#5c5c5c;     font-style:italic}
+
+.related-posts__comments::before{    content:"";     position:absolute;     top:0;     left:0;     width:16px;     height:17px;     background:url(../images/decorative/spritesheet.png) no-repeat -5px -845px}
+
+.currency{    padding-left:7px;     padding-top:18px}
+
+.currency h3{    margin-bottom:4px}
+
+.currency *:first-child{    margin-top:0}
+
+.currency td,
+.currency th{    padding:2px 7px;     text-align:center;     font-family:'Arial',sans-serif;     line-height:15px;     font-size:10px;     color:#5c5c5c;     font-weight:normal}
+
+.currency th{    background-color:#076e9f;     color:#fff}
+
+.currency td{    background-color:#c7e9fa;     color:#076e9f}
+
+.currency__status{    display:inline-block;     vertical-align:top;     width:15px;     height:11px;     margin-top:2px;     background:url(../images/decorative/spritesheet.png) no-repeat}
+
+.currency__status--up{ background-position:-5px -26px}
+
+.currency__status--down{ background-position:-5px -5px}
+
+.main-content{ float:right;  width:747px;  padding-bottom:13px}
+
+.main-post{    position:relative;     width:739px;     padding-left:13px;     padding-top:16px;     margin-bottom:19px;     padding-bottom:20px;     border-bottom:1px dotted #d7d7d7;     border-right:1px dotted #d7d7d7}
+
+.main-post::before{    content:"";     position:absolute;     top:-11px;     left:0;     height:11px;     width:100%;     background-color:#fff;     border-top:2px solid #22aaec}
+
+.main-post *:first-child{    margin-top:0}
+
+.main-post__title{    margin-top:41px;     margin-bottom:6px;     padding:0;     font-family:'League Gothic',sans-serif;     line-height:41px;     font-size:32px;     color:#076e9f;     font-weight:normal;     text-transform:uppercase}
+
+.main-post__info{    float:left;     margin-right:28px;     width:112px;     font-size:0}
+
+.main-post__text{    float:left;     width:570px}
+
+.main-post__text p{    margin-top:0;     margin-bottom:27px;     font-family:'Arial',sans-serif;     line-height:18px;     font-size:10px;     color:#5c5c5c;     font-weight:normal}
+
+.main-post__popularity{    position:absolute;     right:-6px;     bottom:20px;     width:180px;     line-height:27px;     background-color:#90d4f5;     font-size:0}
+
+.main-post__popularity::after{    content:"";     position:absolute;     bottom:-5px;     right:0;     width:0;     height:0;     border-top:5px solid #076e9f;     border-right:5px solid transparent}
+
+.main-post__likes{    position:relative;     display:inline-block;     vertical-align:top;     padding:5px 0 5px 40px;     font-family:'Arial',sans-serif;     line-height:17px;     font-size:10px;     color:#076e9f;     font-weight:normal}
+
+.main-post__likes::before{    content:"";     position:absolute;     top:6px;     left:14px;     width:16px;     height:15px;     background:url(../images/decorative/spritesheet.png) -5px -710px}
+
+.main-post__comments{    position:relative;     display:inline-block;     vertical-align:top;     padding:5px 0 5px 40px;     font-family:'Arial',sans-serif;     line-height:17px;     font-size:10px;     color:#076e9f;     font-weight:normal}
+
+.main-post__comments::before{    content:"";     position:absolute;     top:6px;     left:14px;     width:16px;     height:17px;     background:url(../images/decorative/spritesheet.png) -5px -231px}
+
+.main-post__info-item{    display:inline-block;     vertical-align:top;     width:31px;     height:29px;     padding:17px 10px 5px;     border-radius:50%;     line-height:10px;     font-size:8px;     color:#fff;     font-family:'Arial',sans-serif;     font-weight:bold;     text-align:center;     background-color:#22aaec}
+
+.main-post__info-item--date{    margin-right:10px}
+
+.main-post__info-item--author{    background:url(../images/decorative/spritesheet.png) -5px -784px}
+
+.btn{ position:relative;  display:inline-block;  vertical-align:top;  padding:1px 11px;  border:1px solid #045279;  background-color:#0770a0;  background:-webkit-gradient(linear,left top,left bottom,from(#0883b1),to(#06588c));  background:-webkit-linear-gradient(#0883b1,#06588c);  background:-o-linear-gradient(#0883b1,#06588c);  background:linear-gradient(#0883b1,#06588c);  text-decoration:none;  line-height:19px;  font-size:10px;  color:#fff;  font-family:'Arial',sans-serif;  font-weight:bold;  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25);  box-shadow:inset 0 1px 0 rgba(255,255,255,.25)}
+
+.btn-wrapper{ display:inline-block;  vertical-align:top;  border-bottom:3px solid #00141e;  -webkit-box-shadow:0 2px 0 rgba(0,0,0,.16);  box-shadow:0 2px 0 rgba(0,0,0,.16)}
+
+.popular-posts{    position:relative;     z-index:2;     padding-left:13px;     margin-bottom:29px;     font-size:0}
+
+.popular-post{    position:relative;     display:inline-block;     vertical-align:top;     width:273px;     padding:21px 60px 31px 30px;     background-color:#eaeaea;     border-radius:13px 0 0 0}
+
+.popular-post::after, .popular-post:before{    position:absolute;     z-index:-1;     content:"";     bottom:15px;     right:10px;     left:auto;     width:50%;     top:80%;     max-width:300px;     background-color:#777;     -webkit-box-shadow:0 15px 10px #777;     box-shadow:0 15px 10px #777;     -webkit-transform:rotate(3deg);     -ms-transform:rotate(3deg);     transform:rotate(3deg)}
+
+.popular-post::before{    right:auto;     left:10px;     -webkit-transform:rotate(-3deg);     -ms-transform:rotate(-3deg);     transform:rotate(-3deg)}
+
+.popular-post:nth-child(odd){    margin-right:8px}
+
+.popular-post__title{    min-height:68px}
+
+.popular-post__title h3{    margin-bottom:0;     margin-top:28px;     line-height:24px;     font-size:22px;     color:#076e9f;     font-family:'League Gothic',sans-serif}
+
+.popular-post__content{    margin-bottom:0;     margin-top:0;     line-height:18px;     font-size:10px;     color:#5c5c5c;     overflow:hidden;     font-family:'Arial',sans-serif}
+
+.popular-post__text{    min-height:93px}
+
+.popular-post__info{    margin-bottom:0;     margin-top:0;     line-height:18px;     font-size:10px;     color:#878787;     font-family:'Arial',sans-serif}
+
+.popular-post__author,
+.popular-post__date{    color:#076e9f}
+
+.popular-post__more{    margin-bottom:18px;     margin-top:0;     line-height:18px;     font-size:10px;     color:#076e9f;     font-family:'Arial',sans-serif;     text-decoration:none}
+
+.popular-post__popularity{    position:absolute;     bottom:0;     left:0;     width:351px;     padding:6px;     line-height:19px;     font-size:10px;     color:#076e9f;     font-family:'Arial',sans-serif;     background-color:#f4f3f3}
+
+.popular-post__likes{    position:relative;     float:right;     padding-left:20px;     margin-right:14px}
+
+.popular-post__likes::before{    content:"";     position:absolute;     top:0;     left:0;     width:16px;     height:15px;     background:url(../images/decorative/spritesheet.png) no-repeat -5px -735px}
+
+.popular-post__comments{    position:relative;     float:right;     padding-left:20px;     margin-right:14px}
+
+.popular-post__comments:before{    content:"";     position:absolute;     top:0;     left:0;     width:16px;     height:17px;     background:url(../images/decorative/spritesheet.png) no-repeat -5px -258px}
+
+.popular-post *:first-child{ margin-top:0}
+
+.your-posts{ position:relative;  z-index:2;  padding-left:13px;  margin-bottom:20px}
+
+.your-post{ position:relative;  padding:33px 30px 19px;  background:#f4f3f3 -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.05)),to(rgba(255,255,255,.05)));  background:#f4f3f3 -webkit-linear-gradient(rgba(0,0,0,.05),rgba(255,255,255,.05));  background:#f4f3f3 -o-linear-gradient(rgba(0,0,0,.05),rgba(255,255,255,.05));  background:#f4f3f3 linear-gradient(rgba(0,0,0,.05),rgba(255,255,255,.05))}
+
+.your-post p{ margin-bottom:14px;  margin-top:0;  line-height:14px;  font-size:12px;  text-align:center;  color:#636363;  font-family:'Arial',sans-serif}
+
+.your-post::after, .your-post:before{ position:absolute;  z-index:-1;  content:"";  bottom:7px;  right:10px;  left:auto;  top:80%;  width:50%;  max-width:740px;  background:#777;  -webkit-box-shadow:0 6px 10px #777;  box-shadow:0 6px 10px #777;  -webkit-transform:rotate(2deg);  -ms-transform:rotate(2deg);  transform:rotate(2deg)}
+
+.your-post::before{ right:auto;  left:10px;  -webkit-transform:rotate(-2deg);  -ms-transform:rotate(-2deg);  transform:rotate(-2deg)}
+
+.map__header{    margin-top:10px;     margin-left:8px;     margin-bottom:8px;     padding:0;     font-family:'League Gothic',sans-serif;     line-height:41px;     font-size:32px;     color:#076e9f;     font-weight:normal;     text-transform:uppercase}
+
+.map__header *:first-child{    margin-top:0}
+
+.map__img{    height:199px;     max-width:1020px;     background:#f4f3f0 url("../images/content/map.jpg") no-repeat;  -webkit-box-shadow:0 0 3px rgba(0,0,0,.75);  box-shadow:0 0 3px rgba(0,0,0,.75)}
+
+.page-footer__menu{ padding-bottom:3px;  border-bottom:1px dotted #d5d5d5}
+
+.main-nav--footer{ float:right}
+
+.main-nav--footer li{ margin-right:24px}
+
+.main-nav--footer a{ padding:0;  border:0}
+
+.main-nav--footer a:hover{ color:#076e9f;  border:0;  background-color:transparent}
+
+.logotype--footer{ float:left;  margin-left:8px;  line-height:18px;  font-size:16px}
+
+.page-footer__rights{ margin:9px 0 5px 0;  font-family:'Arial',sans-serif;  line-height:18px;  font-size:10px;  color:#787878;  font-weight:normal;  text-transform:uppercase;  text-align:center}
